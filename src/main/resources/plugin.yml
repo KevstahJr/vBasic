@@ -1,0 +1,57 @@
+name: vBasic
+version: ${project.version}
+main: ga.atlasorb.basic.Basic
+load: STARTUP
+depend: [PlaceholderAPI]
+authors: [AtlasOrb Development Team, KevstahJr]
+
+############
+# Commands #
+############
+commands:
+  clearchat:
+    aliases: [cc, chatclear]
+  forceban:
+    aliases: [fb, wdr]
+  tp:
+    aliases: [teleport, s]
+  tphere:
+    aliases: [teleporthere, shere]
+  tppos:
+    aliases: [teleportpos, teleportcoords]
+  clear:
+    aliases: [clearinventory, ci]
+  kill:
+    aliases: [houdini]
+  enderchest:
+    aliases: [echest, chest]
+  reboot:
+    aliases: [serverisgettinggriefed]
+  gamemode:
+    aliases: [gm]
+  checkrank:
+    aliases: [whatisthererank, tfisthererank]
+  invsee:
+    aliases: [openinv]
+  broadcast:
+    aliases: [bc]
+  fly:
+    aliases: [ibelieveicanfly]
+  heal:
+    aliases: [browtfiamlow]
+  prefix:
+    aliases: [tags, tag, prefixs]
+  vote:
+  help:
+  discord:
+  ping:
+  rank:
+    aliases: [whatismyrank]
+  showmethedoor:
+    aliases: [getmeoutofhere]
+  list:
+    aliases: [whoisonline, spoofer]
+  bal:
+    aliases: [balance, amifuckingbroke, whatismymoney, money]
+  donate:
+    aliases: [store, buy]
